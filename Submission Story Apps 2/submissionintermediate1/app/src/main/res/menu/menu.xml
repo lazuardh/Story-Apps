@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/normal_type"
+        android:title="@string/normal_type"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/satellite_type"
+        android:title="@string/satellite_type"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/terrain_type"
+        android:title="@string/terrain_type"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/hybrid_type"
+        android:title="@string/hybrid_type"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/ic_map_24"
+        android:title="maps"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout_orange_24"
+        android:title="logout"
+        app:showAsAction="always"
+        />
+
+</menu>
